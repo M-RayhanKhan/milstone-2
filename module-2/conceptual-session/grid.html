@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .parent{
+            color: white;
+            border: 2px solid darkcyan;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(3, 70px);
+            grid-template-rows: 50px 50px;
+            align-content: center;
+            justify-content: space-around;
+           
+        }
+        .child1{
+            background-color: red;
+            /* justify-self: center;
+            align-self: center; */
+        }
+        .child2{
+            background-color: green;
+            /* justify-self: center;
+            align-self: center; */
+        }
+        .child3{
+            background-color: blue;
+            /* justify-self: center;
+            align-self: center; */
+        }
+        .child4{
+            background-color: purple;
+            /* justify-self: center;
+            align-self: center; */
+        }
+        .child5{
+            background-color: black;
+            /* justify-self: center;
+            align-self: center; */
+        }
+        .child6{
+            background-color: rgb(4, 156, 144);
+            /* justify-self: center;
+            align-self: center; */
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child1">1 </div>
+        <div class="child2">2</div>
+        <div class="child3">3</div>
+        <div class="child4">4</div>
+        <div class="child5">5</div>
+        <div class="child6">6</div> 
+    </div>
+</body>
+</html>
